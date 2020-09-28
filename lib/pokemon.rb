@@ -1,12 +1,17 @@
 class Pokemon
   
+<<<<<<< HEAD
   attr_accessor :name, :type, :db
+=======
+  attr_accessor :name, :type
+>>>>>>> 59e1b4d085e357fdfa4a6431a210e7092b97ef60
   attr_reader :id 
   
   def initialize(id: nil, name: nil, type: nil, db: nil)
     @name = name
     @type = type 
     @id = id 
+<<<<<<< HEAD
     @db = db
   end
   
@@ -30,6 +35,11 @@ class Pokemon
       new_pok = Pokemon.new(id: found_array[0][0], name: found_array[0][1], type: found_array[0][2])
       new_pok
   end   #end find
+=======
+    
+  end
+  
+>>>>>>> 59e1b4d085e357fdfa4a6431a210e7092b97ef60
   
   
   
